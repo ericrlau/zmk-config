@@ -29,3 +29,6 @@ CONFIG_CLOCK_CONTROL_NRF_K32SRC_30PPM=y
 # Enable Encoder
 CONFIG_EC11=y
 CONFIG_EC11_TRIGGER_GLOBAL_THREAD=y
+
+# Turn on logging, and set ZMK logging to debug output
+CONFIG_ZMK_USB_LOGGING=y
