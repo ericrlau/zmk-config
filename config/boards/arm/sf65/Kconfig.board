@@ -1,0 +1,12 @@
+# BlueSof board configuration
+
+# Copyright (c) 2020 Eric Lau
+# SPDX-License-Identifier: MIT
+
+config BOARD_SP56_LEFT
+	bool "sp56_left"
+	depends on SOC_NRF52840_QIAA
+
+config BOARD_SP56_RIGHT
+	bool "sp56_right"
+	depends on SOC_NRF52840_QIAA
