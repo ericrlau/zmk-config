@@ -1,5 +1,5 @@
-identifier: bluesof
-name: BlueSof
+identifier: sf65
+name: SF65
 type: keyboard
 arch: arm
 toolchain:
