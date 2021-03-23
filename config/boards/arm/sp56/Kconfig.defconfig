@@ -4,14 +4,14 @@
 if BOARD_SP56_LEFT
 
 	config ZMK_KEYBOARD_NAME
-	default "BlueSof"
+	default "COBO SP56"
 
 endif # BOARD_SP56_LEFT
 
 if BOARD_SP56_RIGHT
 
 	config ZMK_KEYBOARD_NAME
-	default "BlueSof (right)"
+	default "SP56 (right)"
 
 endif # BOARD_SP56_RIGHT
 

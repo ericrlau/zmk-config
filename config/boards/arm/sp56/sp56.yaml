@@ -1,5 +1,5 @@
-identifier: bluesof
-name: BlueSof
+identifier: sp56
+name: SP56
 type: keyboard
 arch: arm
 toolchain:
