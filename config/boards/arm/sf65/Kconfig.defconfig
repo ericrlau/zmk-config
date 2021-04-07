@@ -4,13 +4,13 @@
 if BOARD_SF65
 
 config ZMK_KEYBOARD_NAME
-	default "SF56"
+	default "COBO SF65"
 
 config BOARD
 	default "sf65"
 
-# menuconfig SENSOR
-#     bool "Sensor Drivers"
+menuconfig SENSOR
+    bool "Sensor Drivers"
 
 config BT_CTLR
 	default BT
