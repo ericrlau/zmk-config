@@ -1,8 +1,8 @@
-# SF65 board configuration
+# BlueSof board configuration
 
 # Copyright (c) 2020 Eric Lau
 # SPDX-License-Identifier: MIT
 
 config BOARD_SF65
-	bool "SF 65"
+	bool "COBO SF65"
 	depends on SOC_NRF52840_QIAA

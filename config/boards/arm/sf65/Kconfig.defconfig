@@ -3,19 +3,11 @@
 
 if BOARD_SF65
 
-	config ZMK_KEYBOARD_NAME
-	default "SF56"
-
-endif # BOARD_SF65
-
-
-if BOARD_SF65
+config ZMK_KEYBOARD_NAME
+	default "COBO SF65"
 
 config BOARD
 	default "sf65"
-
-# config ZMK_SPLIT
-# 	default y
 
 menuconfig SENSOR
     bool "Sensor Drivers"
@@ -29,8 +21,8 @@ config ZMK_BLE
 config ZMK_USB
 	default y
 
-config ZMK_BATTERY_VOLTAGE_DIVIDER
-	default y
+# config ZMK_BATTERY_VOLTAGE_DIVIDER
+# 	default y
 
 if USB
 
@@ -42,4 +34,4 @@ config USB_DEVICE_STACK
 
 endif # USB
 
-endif # BOARD_SP56_LEFT || BOARD_SP56_RIGHT
+endif # BOARD_SF65
